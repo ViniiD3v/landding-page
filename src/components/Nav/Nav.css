@@ -1,0 +1,40 @@
+* {
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav{
+    display: flex;
+    align-items: center;
+    max-height: 120px;
+    justify-content: end;
+}
+
+.Nav .img-nav img{
+    max-width: 150px;
+    margin-right: 410px;
+}
+
+.Nav .Nav-a a{
+    color: #02033B;
+    font-weight: 800;
+    font-size: 19px;
+    gap: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+.Nav .btn button{
+    background-color: #4335DE;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 15px;
+    margin: 30px 100px;
+    cursor: pointer;
+}

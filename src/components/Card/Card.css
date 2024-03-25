@@ -1,0 +1,30 @@
+* {
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.card .star{
+    padding-bottom: 24px;
+}
+
+.card .comments p{
+    color: #02033B;
+    padding-bottom: 24px;
+}
+
+.card .comments h2{
+    color: #02033B;
+    padding-bottom: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
