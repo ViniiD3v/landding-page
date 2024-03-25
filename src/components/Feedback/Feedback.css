@@ -1,0 +1,50 @@
+* {
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-marcas{
+    overflow-wrap: break-word;
+    background-image: linear-gradient(to right top, #f7c95f, #f8c455, #fabe4a, #fbb840, #fdb235);
+}
+
+.Main-marcas .tittle h1{
+    font-size: 36px;
+    color: #02033B;
+    padding: 80px;
+    font-weight: 800;
+}
+
+.Main-marcas .patrocinios{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 100px
+}
+
+.Main-marcas .patrocinios h2{
+    display: flex;
+    font-size: 23px;
+    color: #02033B;
+    font-weight: 800;
+}
+
+.Main-marcas .patrocinios .marcas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Main-marcas .patrocinios .marcas img{
+    max-width: 120px;
+}
+
+.Main-marcas .carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
