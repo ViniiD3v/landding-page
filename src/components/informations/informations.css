@@ -5,47 +5,29 @@
     padding: 0;
 }
 
-.Main {
-    max-height: 600px;
-    padding: 100px 180px;
-    background: url(./home-header.png.png);
-    background-position: bottom right;
-    background-size: 550px;
-    background-repeat: no-repeat;
-}
-
-.Main .main-infos{
+.informations {
     display: flex;
+    padding: 84px 132px;
 }
 
-.Main .tittle h1{
-    color: #02033B;
-    font-size: 60px;
+.main-infos .tittle h1{
+    font-size: 36px;
     font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.Main .tittle p{
     color: #02033B;
+    padding-bottom: 40px;
+}
+
+.main-infos .tittle p{
     font-size: 20px;
-    
+    color: #02033B;
+    padding-bottom: 50px;
 }
 
-.Main .main-infos .img-main img{
-    max-width: 240px;
-    max-height: 461px;
-    margin-left: 50px;
-}
 
-.Main .btns {
-    display: flex;
-}
-
-.Main .btns #btn-yellow{
+.main-infos .btns #yellow{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     background-color: #FFC247;
     color: #02033B;
     border-radius: 30px;
@@ -53,13 +35,14 @@
     font-weight: bold;
     border: none;
     padding: 15px 30px;
+    gap: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
-.Main .btns #btn-white{
+.main-infos .btns #white{
     background-color: #fff;
     color: #02033B;
-    margin-left: 40px;
     border-radius: 30px;
     font-size: 19px;
     font-weight: bold;
@@ -68,4 +51,7 @@
     cursor: pointer;
 }
 
-
+.informations .img-infos img{
+    margin-left: 60px;
+    box-shadow: 15px -5px #FFC247, 15px 5px 1px #FFC247;
+}
