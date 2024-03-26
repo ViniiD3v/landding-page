@@ -1,4 +1,3 @@
-import Carrossel from '../Card/Index'
 import './Feedback.css'
 
 const Feedback = () => {
@@ -7,8 +6,6 @@ const Feedback = () => {
             <div className='tittle'>
                 <h1>Loved by thousands of iPhone <br /> and Android users alike</h1>
             </div>
-
-            <Carrossel name="Vinicius"/>
 
             <div className='patrocinios'>
                 <h2>Featured in:</h2>

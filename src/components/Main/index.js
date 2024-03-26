@@ -9,8 +9,8 @@ const Main = () => {
                     <p>Think your phone has been hacked? Our trusted apps make it <br/> easy for you to scan, detect and remove threats from your <br/> iPhone and Android devices.</p>
 
                     <div className='btns'>
-                        <button id='yellow'>Get Certo for iPhone <i class="fa-solid fa-arrow-right"></i></button>
-                        <button id='white'>Get Certo for Android</button>
+                        <button id='btn-yellow'>Get Certo for iPhone <i class="fa-solid fa-arrow-right"></i></button>
+                        <button id='btn-white'>Get Certo for Android</button>    
                     </div>
                 </div>
                 <div className='img-main'>

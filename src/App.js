@@ -1,6 +1,7 @@
-import Feedback from "./components/Feedback/Index";
-import Main from "./components/Main";
-import Nav from "./components/Nav";
+import Feedback from "./components/feedback/Index";
+import Informations from "./components/informations";
+import Main from "./components/main/index";
+import Nav from "./components/nav";
 
 
 
@@ -10,6 +11,7 @@ function App() {
         <Nav />
         <Main />
         <Feedback />
+        <Informations />
     </div>
   );
 }
