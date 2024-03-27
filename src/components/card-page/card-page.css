@@ -1,0 +1,141 @@
+* {
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-page {
+    background-image: linear-gradient(to right top, #f3f8ff, #f0f6fe, #edf3fd, #eaf1fb, #e7effa);
+    padding: 80px 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-page h1{
+    padding-bottom: 72px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #02033B;
+}
+
+.card-infos {
+    width: 840px;
+    height: 872px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 5px #d8d8d8;
+}
+
+.card-infos .line-one{
+    display: flex;
+    margin-right: 10px;
+    padding: 72px 50px 0px 56px;
+    gap: 48px;
+}
+
+.card-infos .line-one .icon{
+    max-width: 200px;
+    max-height: 265px;
+}
+
+
+.card-infos .line-one .icon img{
+    margin-left: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    height: 72px;
+}
+
+.card-infos .line-one .icon h2{
+    font-size: 19px;
+    font-weight: 900;
+    color: #02033B;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.card-infos .line-one .icon p{
+    font-size: 16px;
+    color: #02033B;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.card-infos .line-two{
+    display: flex;
+    padding: 72px 40px 0px 56px;
+    gap: 48px;
+}
+
+.card-infos .line-two .icon{
+    max-width: 200px;
+    max-height: 265px;
+}
+
+
+.card-infos .line-two .icon img{
+    margin-left: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+    height: 72px;
+}
+
+.card-infos .line-two .icon h2{
+    font-size: 19px;
+    color: #02033B;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.card-infos .line-two .icon p{
+    font-size: 16px;
+    color: #02033B;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.card-infos .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 40px 72px 40px;
+    gap: 25px;
+}
+
+.card-infos .buttons #yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC247;
+    color: #02033B;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card-infos .buttons #white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #02033B;
+    color: #02033B;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px 20px;
+    gap: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
