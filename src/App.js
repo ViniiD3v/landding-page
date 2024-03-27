@@ -1,3 +1,4 @@
+import CardPage from "./components/card-page";
 import Feedback from "./components/feedback/Index";
 import Informations from "./components/informations";
 import Main from "./components/main/index";
@@ -12,6 +13,7 @@ function App() {
         <Main />
         <Feedback />
         <Informations />
+        <CardPage />
     </div>
   );
 }
