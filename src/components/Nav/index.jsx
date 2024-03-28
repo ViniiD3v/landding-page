@@ -9,7 +9,7 @@ const Nav = () => {
             <div className='Nav-a'>
                 <a href="#">iPhone</a>
                 <a href="#">Android</a>
-                <a href="#">Help</a>
+                <a href="help">Help</a>
                 <a href="#">Company</a>
             </div>
             <div className='btn'>

@@ -31,7 +31,7 @@
 .card-infos .line-one{
     display: flex;
     margin-right: 10px;
-    padding: 72px 50px 0px 56px;
+    padding: 72px 40px 0px 65px;
     gap: 48px;
 }
 
@@ -67,7 +67,7 @@
 
 .card-infos .line-two{
     display: flex;
-    padding: 72px 40px 0px 56px;
+    padding: 72px 40px 0px 65px;
     gap: 48px;
 }
 
