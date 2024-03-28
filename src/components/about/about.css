@@ -1,0 +1,90 @@
+* {
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    padding: 84px 264px;
+    max-width: 1440px;
+    max-height: 464px;
+}
+
+.about .card-about{
+    display: flex;
+    gap: 72px;
+}
+
+.about .card-one{
+    background-image: linear-gradient(to right top, #f7c95f, #f8c455, #fabe4a, #fbb840, #fdb235);
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 296px;
+}
+
+.about .card-one h2{
+    padding: 50px 50px 30px 50px;
+    justify-content: center;
+    align-items: center;
+    color: #02033B;
+    font-size: 23px;
+}
+
+.about .card-one p{
+    justify-content: center;
+    align-items: center;
+    color: #02033B;
+    font-size: 16px;
+    padding: 0px 50px 60px 50px;
+}
+
+.about .card-one #btn-card-one{
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px 50px 50px;
+    gap: 10px;
+    padding: 16px 20px;
+    background-color: #4335DE;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.about .card-two{
+    width: 308px;
+    height: 296px;
+}
+
+.about .card-two h2{
+    padding: 50px 50px 30px 50px;
+    justify-content: center;
+    align-items: center;
+    color: #02033B;
+    font-size: 23px;
+}
+
+.about .card-two p{
+    justify-content: center;
+    align-items: center;
+    color: #02033B;
+    font-size: 16px;
+    padding: 0px 50px 60px 50px;
+}
+
+.about .card-two #btn-card-two{
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px 50px 50px;
+    padding: 16px 20px;
+    background-color: #fff;
+    color: #02033B;
+    border: 2px solid #02033B;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 800;
+}
