@@ -41,7 +41,7 @@
     max-width: 120px;
 }
 
-.Main-marcas .carrossel {
+.Main-marcas .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
