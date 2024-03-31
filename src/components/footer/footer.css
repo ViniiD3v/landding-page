@@ -1,0 +1,145 @@
+* {
+    font-family: inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.certo-footer{
+    padding: 96px 192px;
+    background-color: #02033B;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-midia h2{
+    font-weight: bold;
+    padding-bottom: 50px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.social-midia .icon-social {
+    max-width: 312px;
+    max-height: 182px;
+}
+
+.social-midia .icon-social img{
+    width: 36px;
+    height: 36px;
+    margin-right: 40px;
+}
+
+.social-midia .links{
+    display: flex;
+    padding-top: 36px;
+}
+
+.social-midia .links a{
+    font-size: 11px;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.social-midia .copyright h3{
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.social-midia .copyright p{
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.certo {
+    margin: 0px 50px ;
+    max-width: 188px;
+    max-height: 351px;
+}
+
+.certo .tittle{
+    border-bottom: solid 3px #ffffff33;
+    padding-right: 80px;
+}
+
+.certo .tittle h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.certo .list{
+    padding: 40px 35px;
+    align-items: center;
+    justify-content: center;
+    list-style: url('list-style.png');
+    font-weight: 600;
+    font-size: 19px;
+    color: #FFC247;
+}
+
+.certo .list ul li{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .form{
+    justify-content: center;
+    align-items: center;
+    padding: 35px 36px;
+    margin-bottom: 70px;
+    border-radius: 40px;
+    max-width: 436px;
+    max-height: 232px;
+    background-color: #FFC247;
+    background-image: url(form-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form .e-mail h2{
+    color: #02033B;
+    font-size: 23px;
+}
+
+.form .e-mail p{
+    color: #02033B;
+    padding: 20px 0px 36px 0px;
+    font-size: 15px;
+
+}
+
+.form .e-mail input{
+    width: 254px;
+    height: 34px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+.form .e-mail button{
+    width: 100px;
+    height: 34px;
+    border: none;
+    background-color: #02033B;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.certo-footer .credits p{
+    padding-top: 150px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}

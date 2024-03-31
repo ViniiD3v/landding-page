@@ -1,6 +1,7 @@
 import About from "./components/about";
 import CardPage from "./components/card-page";
 import Feedback from "./components/feedback/Index";
+import Footer from "./components/footer";
 import Informations from "./components/informations";
 import Insights from "./components/insights";
 import Main from "./components/main/index";
@@ -20,6 +21,7 @@ function App() {
         <About />
         <YourPhone />
         <Insights />
+        <Footer />
     </div>
   );
 }
