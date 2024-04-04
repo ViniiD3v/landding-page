@@ -12,6 +12,7 @@
     background-position: bottom right;
     background-size: 550px;
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 .Main .main-infos{

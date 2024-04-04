@@ -26,11 +26,11 @@ const Footer = () => {
                     </div>
                     <div className='list'>
                         <ul>
-                            <li>iPhone</li>
-                            <li>Android</li>
-                            <li>Help</li>
-                            <li>About</li>
-                            <li>Insight</li>
+                            <li>- iPhone</li>
+                            <li>- Android</li>
+                            <li>- Help</li>
+                            <li>- About</li>
+                            <li>- Insight</li>
                         </ul>
                     </div>
                 </div>
