@@ -23,6 +23,7 @@
     align-items: center;
     width: 460px;
     height: 296px;
+    overflow-y: hidden;
 }
 
 .about .card-one h2{
@@ -58,6 +59,7 @@
 .about .card-two{
     width: 308px;
     height: 296px;
+    overflow-y: hidden;
 }
 
 .about .card-two h2{

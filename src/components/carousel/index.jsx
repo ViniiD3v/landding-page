@@ -10,40 +10,41 @@ function Carousel() {
         slidesToScroll: 1,
         autoplay: true,
         speed: 3000,
-        autoplaySpeed: 100,
+        autoplaySpeed: 1000,
         cssEase: "linear"
     };
 
     return (
-        <div>
+        <section className='carrossel'>
             <Slider {...settings}>
-                <div>
-                    <Card 
-                    name="Vinicius"
+                <div className='comment'>
+                    <Card
+                        name="Vinicius"
                     />
                 </div>
-                <div>
-                    <Card 
-                    name="Emerson"
+                <div className='comment'>
+                    <Card
+                        name="Emerson"
                     />
                 </div>
-                <div>
-                    <Card 
-                    name="Jennifer Black"
+                <div className='comment'>
+                    <Card
+                        name="Jennifer Black"
                     />
                 </div>
-                <div>
-                    <Card 
-                    name="Phillip Colligan"
+                <div className='comment'>
+                    <Card
+                        name="Phillip Colligan"
                     />
                 </div>
-                <div>
-                    <Card 
-                    name="colinandmandy94"
+                <div className='comment'>
+                    <Card
+                        name="colinandmandy94"
                     />
                 </div>
             </Slider>
-        </div>
+        </section >
+
     )
 }
 
