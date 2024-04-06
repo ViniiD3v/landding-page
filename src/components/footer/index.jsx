@@ -7,9 +7,9 @@ const Footer = () => {
                 <div className='social-midia'>
                     <h2>Scan. Detect. Remove.</h2>
                     <div className='icon-social'>
-                        <img src="./image/twitter.png" alt="" />
-                        <img src="./image/facebook.png" alt="" />
-                        <img src="./image/yt.png" alt="" />
+                        <img src="../assets/footer-img/twitter.png" alt="" />
+                        <img src="../assets/footer-img/facebook.png" alt="" />
+                        <img src="../assets/footer-img/yt.png" alt="" />
                     </div>
                     <div className='links'>
                         <a href="#">Privacy Policy</a>
