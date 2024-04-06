@@ -13,26 +13,29 @@
     background-size: 550px;
     background-repeat: no-repeat;
     overflow-y: hidden;
+    flex-wrap: wrap;
 }
 
-.Main .main-infos{
+.Main .main-infos {
     display: flex;
 }
 
-.Main .tittle h1{
+.Main .tittle h1 {
+    max-width: 633px;
     color: #02033B;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.Main .tittle p{
+.Main .tittle p {
+    max-width: 633px;
     color: #02033B;
     font-size: 20px;
-    
+
 }
 
-.Main .main-infos .img-main img{
+.Main .main-infos .img-main img {
     max-width: 240px;
     max-height: 461px;
     margin-left: 50px;
@@ -42,7 +45,7 @@
     display: flex;
 }
 
-.Main .btns #btn-yellow{
+.Main .btns #btn-yellow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +60,7 @@
     cursor: pointer;
 }
 
-.Main .btns #btn-white{
+.Main .btns #btn-white {
     background-color: #fff;
     color: #02033B;
     margin-left: 40px;
@@ -69,4 +72,65 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 767.98px) {
+    .Main {
+        padding: 30px;
+        background-color: #fff;
+        background-image: none;
+    }
 
+    .Main .tittle h1 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .Main .tittle p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .img-main {
+        display: none;
+    }
+
+    .Main .btns {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Main .btns #btn-yellow {
+        padding: 10px 15px;
+        gap: 4px;
+        font-size: 10px;
+    }
+
+    .Main .btns #btn-white {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .Main {
+        padding: 30px;
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .img-main {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1398.98px) {
+    .Main {
+        padding: 50px;
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .img-main {
+        display: none;
+    }
+}

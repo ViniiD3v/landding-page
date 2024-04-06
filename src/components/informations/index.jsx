@@ -2,7 +2,7 @@ import './informations.css'
 
 const Informations = () => {
     return (
-        <section className='informations'>
+        <section  className='informations'>
             <div className='main-infos'>
                 <div className='tittle'>
                     <h1>At Certo, mobile security <br /> is not an afterthought, it’s <br /> what we do.</h1>
@@ -14,7 +14,7 @@ const Informations = () => {
                 </div>
             </div>
             <div className='img-infos'>
-                <img src="./image/infos.jpeg.png" alt="" />
+                <img src="../assets/informations-img/infos.jpeg.png" alt="" />
             </div>
 
         </section>

@@ -14,12 +14,12 @@ const Feedback = () => {
                 <h2>Featured in:</h2>
 
                 <div className='marcas'>
-                    <img src="./image/marca.png" alt="" />
-                    <img src="./image/marca2.png" alt="" />
-                    <img src="./image/marca3.png" alt="" />
-                    <img src="./image/marca4.png" alt="" />
-                    <img src="./image/marca5.png" alt="" />
-                    <img src="./image/marca6.png" alt="" />
+                    <img src="../assets/feedback-img/marca.png" alt="" />
+                    <img src="../assets/feedback-img/marca2.png" alt="" />
+                    <img src="../assets/feedback-img/marca3.png" alt="" />
+                    <img src="../assets/feedback-img/marca4.png" alt="" />
+                    <img src="../assets/feedback-img/marca5.png" alt="" />
+                    <img src="../assets/feedback-img/marca6.png" alt="" />
                 </div>
                 
             </div>
