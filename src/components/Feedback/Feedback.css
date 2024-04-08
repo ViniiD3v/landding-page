@@ -6,7 +6,6 @@
 }
 
 .Main-marcas{
-    overflow-wrap: break-word;
     background-image: linear-gradient(to right top, #f7c95f, #f8c455, #fabe4a, #fbb840, #fdb235);
 }
 
@@ -50,14 +49,87 @@
     gap: 20px;
 }
 
-@media only screen and (max-width: 767.98px) {
-   
+@media (min-width: 100px) and (max-width: 767.98px) {
+    .Main-marcas .tittle h1{
+        font-size: 15px;
+        padding: 40px 30px;
+    }
+
+    .Main-marcas .patrocinios{
+        padding: 40px;
+    }
+
+    .Main-marcas .patrocinios h2{
+        display: none;
+    }
+
+    .Main-marcas .patrocinios .marcas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Main-marcas .patrocinios .marcas img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 50px;
+    }
 }
 
-@media only screen and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .Main-marcas .tittle h1{
+        font-size: 25px;
+        padding: 40px 30px;
+    }
 
+    .Main-marcas .patrocinios{
+        padding: 40px;
+    }
+
+    .Main-marcas .patrocinios h2{
+        font-size: 15px;
+    }
+
+    .Main-marcas .patrocinios .marcas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Main-marcas .patrocinios .marcas img{
+        align-items: center;
+        justify-content: center;
+        max-width: 50px;
+    }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media (min-width: 992px) and (max-width: 1250px) {
+    .Main-marcas .tittle h1{
+        font-size: 35px;
+        padding: 40px 30px;
+    }
 
+    .Main-marcas .patrocinios{
+        padding: 40px;
+    }
+
+    .Main-marcas .patrocinios h2{
+        font-size: 25px;
+    }
+
+    .Main-marcas .patrocinios .marcas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Main-marcas .patrocinios .marcas img{
+        align-items: center;
+        justify-content: center;
+        max-width: 80px;
+    }
 }
