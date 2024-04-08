@@ -71,14 +71,154 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 767.98px) {
-   
+@media (min-width: 100px) and (max-width: 548.98px){
+    .insights{
+        padding: 40px 15px;
+    }
+    
+    .insights h1{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .insights-infos {
+        display: inline;
+        gap: 0px;
+    }
+
+    .insights-infos .collun{
+        display: inline;
+        width: 100%;
+        height: 150;
+    }
+    
+    .insights-infos .collun img{
+        margin-left: 40px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        max-width: 300px;
+        height: 200;
+    }
+    
+    .insights-infos .collun h2{
+        text-align: center;
+        font-size: 15px;
+        padding: 20px 15px;
+    }
+    
+    .insights-infos .collun p{
+        font-size: 15px;
+        text-align: justify;
+        max-width: 600px;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .insights .btn {
+        padding-top: 20px;
+    }
+
+    .insights .btn button {
+        border-radius: 30px;
+        font-size: 15px;
+        padding: 15px 25px;
+        gap: 10px;
+    }
 }
 
-@media only screen and (max-width: 991.98px) {
 
+@media (min-width: 550px) and (max-width: 767.98px){
+    .insights{
+        padding: 30px 30px;
+    }
+    
+    .insights h1{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .insights-infos {
+        gap: 15px;
+    }
+
+    .insights-infos .collun{
+        width: 150px;
+        height: 300px;
+    }
+    
+    .insights-infos .collun img{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        width: 150px;
+        height: 100px;
+    }
+    
+    .insights-infos .collun h2{
+        font-size: 15px;
+        padding: 20px 20px 25px 30px;
+    }
+    
+    .insights-infos .collun p{
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media (min-width: 768px) and (max-width: 1350px) {
+    .insights{
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .insights h1{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .insights-infos {
+        gap: 30px;
+        height: 400px;
+    }
 
+    .insights-infos .collun{
+        width: 200px;
+        height: 400px;
+    }
+    
+    .insights-infos .collun img{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 120px;
+    }
+    
+    .insights-infos .collun h2{
+        max-width: 200px;
+        max-height: 200px;
+        font-size: 15px;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .insights-infos .collun p{
+        max-width: 200;
+        padding-top: 15px;
+        text-align: justify;
+        max-height: 400px;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .insights .btn {
+        padding-top: 20px;
+    }
+
+    .insights .btn button {
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+        padding: 20px 25px;
+        gap: 10px;
+    }
 }

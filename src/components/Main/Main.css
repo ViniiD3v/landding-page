@@ -21,7 +21,7 @@
 }
 
 .Main .tittle h1 {
-    max-width: 633px;
+    max-width: 600px;
     color: #02033B;
     font-size: 60px;
     font-weight: bold;
@@ -29,7 +29,7 @@
 }
 
 .Main .tittle p {
-    max-width: 633px;
+    max-width: 600px;
     color: #02033B;
     font-size: 20px;
 
@@ -107,6 +107,7 @@
 
     .Main .btns #btn-white {
         padding: 10px 15px;
+        border: 1px solid #02033B;
         font-size: 10px;
     }
 }
@@ -123,9 +124,8 @@
     }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media only screen and (max-width: 1298.98px) {
     .Main {
-        padding: 50px;
         background-color: #fff;
         background-image: none;
     }

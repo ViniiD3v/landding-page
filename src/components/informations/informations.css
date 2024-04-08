@@ -56,14 +56,110 @@
     box-shadow: 20px -10px #FFC247, 20px 10px 1px #FFC247;
 }
 
-@media only screen and (max-width: 767.98px) {
-   
+@media (min-width: 100px) and (max-width: 767.98px) {
+    .informations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 70px;
+    }
+
+    .main-infos .tittle p{
+        font-size: 10px;
+        color: #02033B;
+        padding-bottom: 20px;
+    }
+
+    .main-infos .tittle h1{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .informations .img-infos img{
+        display: none;
+    }
+
+    .main-infos .btns #yellow{
+        padding: 10px 15px;
+        gap: 4px;
+        font-size: 10px;
+    }
+    
+    .main-infos .btns #white{
+        padding: 10px 15px;
+        border: 1px solid #02033B;
+        font-size: 10px;
+    }
 }
 
-@media only screen and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .informations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 70px;
+    }
 
+    .main-infos .tittle p{
+        font-size: 10px;
+        color: #02033B;
+        padding-bottom: 20px;
+    }
+
+    .main-infos .tittle h1{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .informations .img-infos img{
+        display: none;
+    }
+
+    .main-infos .btns #yellow{
+        padding: 10px 15px;
+        gap: 4px;
+        font-size: 10px;
+    }
+    
+    .main-infos .btns #white{
+        padding: 10px 15px;
+        border: 1px solid #02033B;
+        font-size: 10px;
+    }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media (min-width: 992px) and (max-width: 1250px) {
+    .informations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 70px;
+    }
 
+    .main-infos .tittle p{
+        font-size: 10px;
+        color: #02033B;
+        padding-bottom: 20px;
+    }
+
+    .main-infos .tittle h1{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .informations .img-infos img{
+        display: none;
+    }
+
+    .main-infos .btns #yellow{
+        padding: 10px 15px;
+        gap: 4px;
+        font-size: 10px;
+    }
+    
+    .main-infos .btns #white{
+        padding: 10px 15px;
+        border: 1px solid #02033B;
+        font-size: 10px;
+    }
 }

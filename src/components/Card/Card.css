@@ -33,14 +33,96 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 767.98px) {
-   
+@media (min-width: 100px) and (max-width: 767.98px) {
+    .card {
+        align-items: center;
+        margin-left: 5px;
+        justify-content: center;
+        background-color: #fff;
+        padding: 5px;
+        width: 110px;
+        height: 100px;
+        border-radius: 15px;
+        overflow-y: hidden;
+    }
+
+    .card .star{
+        padding: 5px 0px 0px 0px;
+    }
+
+    .card .star img{
+        width: 10px;
+    }
+
+    .card .comments p{
+        font-size: 5px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .card .comments h2{
+        font-size: 5px;
+        padding: 10px 0px 10px 0px;
+    }
 }
 
-@media only screen and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 20px;
+        width: 240px;
+        height: 200px;
+        border-radius: 40px;
+        overflow-y: hidden;
+    }
 
+    .card .star{
+        padding: 5px 0px;
+    }
+
+    .card .star img{
+        width: 20px;
+    }
+
+    .card .comments p{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .card .comments h2{
+        font-size: 10px;
+        padding-top: 15px;
+    }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media (min-width: 992px) and (max-width: 1250px) {
+    .card {
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 20px;
+        width: 300px;
+        height: 250px;
+        border-radius: 50px;
+        overflow-y: hidden;
+    }
 
+    .card .star{
+        padding: 10px 0px;
+    }
+
+    .card .star img{
+        width: 20px;
+    }
+
+    .card .comments p{
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    .card .comments h2{
+        font-size: 13px;
+        padding-top: 20px;
+    }
 }
