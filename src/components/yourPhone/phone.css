@@ -65,6 +65,8 @@
 @media (min-width: 100px) and (max-width: 767.98px) {
     .yourPhone{
         padding: 30px 30px;
+        display: grid;
+        place-items: center;
     }
     
     .yourPhone .phone h1{
@@ -101,6 +103,8 @@
 @media (min-width: 768px) and (max-width: 1250px) {
     .yourPhone{
         padding: 30px 30px;
+        display: grid;
+        place-items: center;
     }
     
     .yourPhone .phone h1{

@@ -13,15 +13,23 @@ import YourPhone from "./components/yourPhone";
 function App() {
   return (
     <div className="App">
-        <Nav />
-        <Main />
-        <Feedback />
+      <Nav />
+      <Main />
+      <Feedback />
+      <div id="iphone">
         <Informations />
-        <CardPage />
+      </div>
+      <CardPage />
+      <div id="help">
         <About />
+      </div>
+      <div id="android">
         <YourPhone />
-        <Insights />
+      </div>
+      <Insights />
+      <div id="company">
         <Footer />
+      </div>
     </div>
   );
 }

@@ -145,14 +145,207 @@
     color: #fff;
 }
 
-@media only screen and (max-width: 767.98px) {
-   
+@media (min-width: 100px) and (max-width: 767.98px){
+    .certo-footer{
+        padding: 20px;
+    }
+
+    .social-midia {
+        margin-right: 30px;
+        padding-bottom: 100px;
+    }
+
+    .footer .social-midia h2{
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .social-midia .icon-social img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .social-midia .links a{
+        font-size: 8px;
+        margin-right: 15px;
+    }
+
+    .social-midia .copyright h3{
+        font-size: 8px;
+        padding-top: 25px;
+    }
+    
+    .social-midia .copyright p{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+
+    .certo {
+        margin: 45px 0px 0px 0px;
+    }
+
+    .certo .tittle{
+        border-bottom: solid 2px #ffffff33;
+        padding-right: 0px;
+    }
+
+    .certo .tittle h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .certo .list{
+        width: 188px;
+        height: 351px;
+        padding: 40px 30px 0px 0px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .footer .form{
+        display: none;
+    }
+
+    .certo-footer .credits p{
+        padding-top: 150px;
+        font-size: 8px;
+    }
 }
 
-@media only screen and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .certo-footer{
+        padding: 20px;
+    }
 
+    .social-midia {
+        margin-right: 10px;
+        padding-bottom: 70px;
+    }
+
+    .footer .social-midia h2{
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .social-midia .icon-social img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .social-midia .links a{
+        font-size: 8px;
+        margin-right: 15px;
+    }
+
+    .social-midia .copyright h3{
+        font-size: 8px;
+        padding-top: 25px;
+    }
+    
+    .social-midia .copyright p{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+
+    .certo {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .certo .tittle{
+        border-bottom: solid 2px #ffffff33;
+        padding-right: 0px;
+    }
+
+    .certo .tittle h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .certo .list{
+        width: 188px;
+        height: 351px;
+        padding: 40px 30px 0px 0px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .footer .form{
+        padding: 15px 15px;
+        margin: 0px 0px 150px 50px;
+        border-radius: 30px;
+        max-width: 236px;
+        background-image: none;
+        max-height: 132px;
+    }
+    
+    .form .e-mail h2{
+        font-size: 10px;
+    }
+    
+    .form .e-mail p{
+        padding: 10px 0px 15px 0px;
+        font-size: 10px;
+    
+    }
+    
+    .form .e-mail input{
+        width: 154px;
+        font-size: 10px;
+        height: 15px;
+        padding-left: 10px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .form .e-mail button{
+        width: 50px;
+        font-size: 10px;
+        height: 15px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .certo-footer .credits p{
+        padding-top: 150px;
+        font-size: 8px;
+    }
 }
 
-@media only screen and (max-width: 1398.98px) {
+@media (min-width: 992px) and (max-width: 1250px) {
+    .certo-footer{
+        padding: 30px;
+    }
 
+    .social-midia {
+        margin-right: 30px;
+        padding-bottom: 70px;
+    }
+
+    .footer .social-midia h2{
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .social-midia .icon-social img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .social-midia .links a{
+        font-size: 8px;
+        margin-right: 15px;
+    }
+
+    .social-midia .copyright h3{
+        font-size: 8px;
+        padding-top: 25px;
+    }
+    
+    .social-midia .copyright p{
+        font-size: 8px;
+        padding-top: 10px;
+    }
 }

@@ -98,7 +98,9 @@
 
 @media (min-width: 100px) and (max-width: 767.98px){
     .about{
-        padding: 20px;
+        padding: 50px;
+        display: grid;
+        place-items: center;
     }
 
     .about .card-about{
@@ -108,22 +110,22 @@
 
     .about .card-one{
         border-radius: 20px;
-        width: 260px;
-        height: 196px;
+        width: 200px;
+        height: 150px;
     }
 
     .about .card-one h2{
-        padding: 25px 25px 15px 25px;
+        padding: 25px 20px 10px 20px;
         font-size: 15px;
     }
 
     .about .card-one p{
         font-size: 10px;
-        padding: 0px 25px 20px 25px;
+        padding: 0px 20px 20px 20px;
     }
 
     .about .card-one #btn-card-one{
-        margin: 0px 25px 25px 25px;
+        margin: 0px 25px 30px 25px;
         gap: 5px;
         font-size: 10px;
         padding: 7px 15px;
@@ -133,22 +135,22 @@
 
     .about .card-two{
         border-radius: 20px;
-        width: 260px;
-        height: 196px;
+        width: 200px;
+        height: 150px;
     }
 
     .about .card-two h2{
-        padding: 25px 25px 15px 25px;
+        padding: 25px 20px 10px 20px;
         font-size: 15px;
     }
 
     .about .card-two p{
         font-size: 10px;
-        padding: 0px 25px 30px 25px;
+        padding: 0px 20px 30px 20px;
     }
 
     .about .card-two #btn-card-two{
-        margin: 0px 25px 25px 25px;
+        margin: 0px 25px 30px 25px;
         gap: 5px;
         font-size: 10px;
         padding: 7px 10px;
@@ -161,6 +163,8 @@
 @media (min-width: 768px) and (max-width: 1250px) {
     .about{
         padding: 40px;
+        display: grid;
+        place-items: center;
     }
 
     .about .card-about{
